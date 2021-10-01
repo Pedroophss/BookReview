@@ -1,0 +1,55 @@
+﻿{
+  Book: {
+    Pages: 652,
+    Title: Harry Potter and the Half-Blood Prince (Harry Potter  #6),
+    Authors: J.K. Rowling/Mary GrandPrÃ©,
+    Language: eng,
+    Id: Guid_1
+  },
+  Count: {
+    Ratings: 2,
+    Reviwers: 4,
+    TotalRating: 10,
+    Id: Guid_2
+  },
+  Ratings: [
+    {
+      UserId: Guid_3,
+      BookId: Guid_1,
+      Rating: 5,
+      Id: Guid_4
+    },
+    {
+      UserId: Guid_3,
+      BookId: Guid_1,
+      Rating: 5,
+      Id: Guid_5
+    }
+  ],
+  Reviews: [
+    {
+      UserId: Guid_3,
+      BookId: Guid_1,
+      Reviwer: super legal :),
+      Id: Guid_6
+    },
+    {
+      UserId: Guid_3,
+      BookId: Guid_1,
+      Reviwer: super legal :),
+      Id: Guid_7
+    },
+    {
+      UserId: Guid_3,
+      BookId: Guid_1,
+      Reviwer: super legal :),
+      Id: Guid_8
+    },
+    {
+      UserId: Guid_3,
+      BookId: Guid_1,
+      Reviwer: super legal :),
+      Id: Guid_9
+    }
+  ]
+}
